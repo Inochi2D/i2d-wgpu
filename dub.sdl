@@ -1,0 +1,14 @@
+name "i2d-wgpu"
+description "D language binding to gfx-rs/wgpu"
+homepage "https://github.com/gecko0307/bindbc-wgpu"
+authors "Timur Gafarov"
+license "BSL-1.0"
+dependency "bindbc-loader" version="~>1.0.0"
+sourcePaths "src"
+importPaths "src"
+buildRequirements "allowWarnings"
+targetPath "out/"
+
+configuration "library" {
+	targetType "library"
+}
