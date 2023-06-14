@@ -3,7 +3,8 @@
 # bindbc-wgpu
 Dynamic binding to [gfx-rs/wgpu-native](https://github.com/gfx-rs/wgpu-native) based on [BindBC](https://github.com/BindBC/bindbc-loader) library loader. Supports Windows, Linux and macOS.
 
-This is a fork of bindbc-wgpu by [gecko0307](https://github.com/gecko0307/bindbc-wgpu).
+This is a fork of bindbc-wgpu by [gecko0307](https://github.com/gecko0307/bindbc-wgpu).  
+We recommend using bindbc-wgpu for non Inochi2D uses, the patches to this repository are mainly there to make it easier to integrate with our specific builds.
 
 > WebGPU specification is currently a working draft and not a standard yet. This binding may be not up to date with latest API revisions.
 
